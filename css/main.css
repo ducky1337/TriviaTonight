@@ -9,12 +9,12 @@ body {
     margin-left: 25%;
     margin-top: 15%;
     color: white;
-    font-family: 'Amatic SC';
+    font-family: 'Source Sans Pro', sans-serif;
   }
   
   #top {
     text-align: center;
-    /*font-family: 'Amatic SC';*/
+    font-family: 'Abril Fatface', cursive;
     font-size: 600px;
   }
   
