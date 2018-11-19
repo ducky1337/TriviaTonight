@@ -1,0 +1,52 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #everything {
+    background-color: rgba(255, 0, 0, 0.5);
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15%;
+    color: white;
+    font-family: 'Amatic SC';
+  }
+  
+  #top {
+    text-align: center;
+    /*font-family: 'Amatic SC';*/
+    font-size: 600px;
+  }
+  
+  #main-left {
+    /*background-color: rgba(255, 255, 0, 0.5);*/
+    border-right: 2px white solid;
+    text-align: right;
+    /*font-family: Helvetica;*/
+  }
+  
+  #main-right>p {
+    font-size: 20px;
+  }
+  
+  #bottom {
+    text-align: center;
+  }
+  
+  #sub {
+    color: gray;
+    text-align: center;
+    font-family: Arial Black;
+  }
+
+  
+  footer {
+    background-color: rgba(43, 35, 31, 1);
+    color: white;
+    margin-top: 25%;
+    padding: 40px 0;
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+  }

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Girly landingpage</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- FONTS   -->
+  <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+
+
+</head>
+
+<body background="img/mountains.jpg">
+
+  <div id="everything" class="container-fluid">
+    <div id="top">
+      <h1>So pretty and girly</h1>
+
+    </div>
+    <div class="row">
+      <div class="col-sm-6" id="main-left">
+        <h1>Welcome to my page!</h1>
+        <h2>This shit is underconstruction!</h2>
+        <h3>Pumpkin spice & leggings</h3>
+        <h3>LINKS TO SOCIAL MEDIA SOON</h3>
+        <!-- <i class="fa fa-pinterest-square fa-2x" aria-hidden="true"></i> -->
+        <!-- <i class="fa fa-pinterest-square fa-2x" aria-hidden="true"></i> -->
+
+      </div>
+      <div class="col-sm-6" id="main-right">
+        <p>
+          Whatever cray vinyl, skateboard hashtag schlitz keytar
+          church-key direct trade actually brooklyn +1 pour-over woke.
+          Chartreuse put a bird on it iPhone af tumblr beard quinoa vape
+          ramps mustache copper mug fam 90's intelligentsia mumblecore.
+          La croix unicorn lyft cred.
+        </p>
+        <h3>
+        I hope to get this shit up and running in:
+      </h3>
+        <h1 id="demo">
+
+        </h1>
+      </div>
+    </div>
+    <div id="bottom">
+      <h3>Please enter email to get updates!</h3>
+    </div>
+    <div id="sub">
+      <form action="mailto:adam@duckysmith.com" method="post" enctype="text/plain">
+        <input type="text" name="FirstName"><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+
+
+  <footer class="container-fluid text-center">
+    <a href="index.html" title="To Top">
+                 <span class="glyphicon glyphicon-chevron-up"></span>
+               </a>
+    <p>created by Adam Smith</p>
+    <p>&copy; 2017 My Company Bitches, Inc.</p>
+  </footer>
+
+  <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Dec 25, 2018 13:37:00").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+      // Get todays date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now an the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Output the result in an element with id="demo"
+      document.getElementById("demo").innerHTML = days + "d " + hours + "h " +
+        minutes + "m " + seconds + "s ";
+
+      // If the count down is over, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "This shit should be done by now....";
+      }
+    }, 1000);
+  </script>
+</body>
+
+</html>
