@@ -4,7 +4,7 @@ body {
   }
   
   #everything {
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.42);
     width: 50%;
     margin-left: 25%;
     margin-top: 15%;
@@ -18,7 +18,7 @@ body {
     font-size: 600px;
   }
   
-  #main-left {
+  .main-left {
     /*background-color: rgba(255, 255, 0, 0.5);*/
     border-right: 2px white solid;
     text-align: right;
@@ -34,7 +34,7 @@ body {
   }
   
   #sub {
-    color: gray;
+    color: black;
     text-align: center;
     font-family: Arial Black;
   }
@@ -49,4 +49,28 @@ body {
     bottom: 0;
     width: 100%;
     z-index: -1;
+  }
+
+
+  @media (max-width: 600px){
+    .everything {
+      /*background-color: rgba(255, 0, 0, 0.5);*/
+      width: 100%;
+      color: white;
+      margin: 0;
+      /*background-color: rgba(0, 0, 0, 0.5);*/
+    }
+    .main-left {
+      /*background-color: rgba(255, 255, 0, 0.5);*/
+      border-bottom: 2px white solid;
+      text-align: center;
+      /*font-family: Helvetica;*/
+    }
+    .main-right {
+      text-align: center;
+      padding-top: 10px;
+    }
+    .bottom {
+      margin: 0;
+    }
   }
